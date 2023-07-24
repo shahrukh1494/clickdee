@@ -2,12 +2,12 @@ import React from "react";
 
 const ChooseUs = () => {
   return (
-    <div className="relative py-12 px-[100px] mt-12 grid grid-rows-2 grid-flow-col gap-4">
+    <div className="relative py-12 px-[100px] mt-12 grid grid-rows-2 grid-cols-3 gap-8">
       <div className="relative block row-span-1">
-        <div className="text-blue-900 font-bold text-4xl">
+        <div className="text-blue-900 font-medium leading-[60px] text-5xl">
           Why The Industry Chooses Clickdee?
         </div>
-        <div className="pt-8">
+        <div className="pt-8 col-span-1">
           We understand performance marketing from every angle and every stage
           of the funnel. Our clients trust that we know what metrics move their
           business towards growth. Our pulishers and affiliate partners know
@@ -15,12 +15,25 @@ const ChooseUs = () => {
           partnerships.
         </div>
       </div>
-      <div></div>
-      <div className="">Choose Your Local Targeting</div>
+      <div className="p-12 text-blue-900 text-3xl text-center">
+        <div className="px-12 text-left">Choose Your Local Targeting</div>
+      </div>
+      <div className="p-12 text-blue-900 text-3xl text-center">
+        <div className="px-12 text-left">Track Your Conversion</div>
+      </div>
+      <div className="grid grid-cols-2">
+        <div></div>
+        <div className="p-12 text-blue-900 text-3xl text-center">
+          <div className="px-12 text-left">Customized Campaigns</div>
+        </div>
+      </div>
 
-      <div></div>
-      <div className="">Track Your Conversion</div>
-      <div></div>
+      <div className="p-12 text-blue-900 text-3xl text-center">
+        <div className="px-12 text-left">Get Dedicated Support Team</div>
+      </div>
+      <div className="p-12 text-blue-900 text-3xl text-center">
+        <div className="px-12 text-left">Quality Assurance</div>
+      </div>
     </div>
   );
 };
