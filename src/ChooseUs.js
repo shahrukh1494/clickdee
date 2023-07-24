@@ -16,14 +16,14 @@ const ChooseUs = () => {
           partnerships.
         </div>
       </div>
-      <div className="cursor-pointer px-12 pb-12 text-blue-900 text-3xl text-center">
+      <div className="hover:-translate-y-8 cursor-pointer px-12 pb-12 text-blue-900 text-3xl text-center">
         <div className="px-12 pb-8">
           <img src="/target.svg" alt="SVG" />
         </div>
 
         <div className="px-12 text-left">Choose Your Local Targeting</div>
       </div>
-      <div className="cursor-pointer px-12 pb-12 text-blue-900 text-3xl text-center">
+      <div className="hover:-translate-y-8 cursor-pointer px-12 pb-12 text-blue-900 text-3xl text-center">
         <div className="px-12 pb-8">
           <img src="/funnel.svg" alt="SVG" />
         </div>
@@ -31,7 +31,7 @@ const ChooseUs = () => {
       </div>
       <div className="grid grid-cols-2">
         <div></div>
-        <div className="cursor-pointer text-blue-900 text-3xl text-center">
+        <div className="hover:-translate-y-8 cursor-pointer text-blue-900 text-3xl text-center">
           <div className="px-12 pb-8">
             <img src="/colorwheel.svg" alt="SVG" />
           </div>
@@ -39,13 +39,13 @@ const ChooseUs = () => {
         </div>
       </div>
 
-      <div className="cursor-pointer px-12 pb-12 text-blue-900 text-3xl text-center">
+      <div className="hover:-translate-y-8 cursor-pointer px-12 pb-12 text-blue-900 text-3xl text-center">
         <div className="px-12 pb-8">
           <img src="/person.svg" alt="SVG" />
         </div>
         <div className="px-12 text-left">Get Dedicated Support Team</div>
       </div>
-      <div className="cursor-pointer px-12 pb-12 text-blue-900 text-3xl text-center">
+      <div className="hover:-translate-y-8 cursor-pointer px-12 pb-12 text-blue-900 text-3xl text-center">
         <div className="px-12 pb-8">
           <img src="/assurance.svg" alt="SVG" />
         </div>
