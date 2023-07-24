@@ -41,9 +41,9 @@ const ChooseUs = () => {
           ensure that every call can be tracked and evaluated
         </div>
       </div>
-      <div className="group grid grid-cols-2">
+      <div className="grid grid-cols-2">
         <div></div>
-        <div className="hover:-translate-y-8 cursor-pointer text-center">
+        <div className="group hover:-translate-y-8 cursor-pointer text-center">
           <div className="px-12 pb-8">
             <img src="/colorwheel.svg" alt="SVG" />
           </div>
