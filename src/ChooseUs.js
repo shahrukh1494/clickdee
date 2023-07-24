@@ -7,6 +7,7 @@ const ChooseUs = () => {
         <div className="text-blue-900 font-medium leading-[60px] text-5xl">
           Why The Industry Chooses Clickdee?
         </div>
+
         <div className="pt-8">
           We understand performance marketing from every angle and every stage
           of the funnel. Our clients trust that we know what metrics move their
@@ -15,23 +16,39 @@ const ChooseUs = () => {
           partnerships.
         </div>
       </div>
-      <div className="cursor-pointer p-12 text-blue-900 text-3xl text-center">
+      <div className="cursor-pointer px-12 pb-12 text-blue-900 text-3xl text-center">
+        <div className="px-12 pb-8">
+          <img src="/target.svg" alt="SVG" />
+        </div>
+
         <div className="px-12 text-left">Choose Your Local Targeting</div>
       </div>
-      <div className="cursor-pointer p-12 text-blue-900 text-3xl text-center">
+      <div className="cursor-pointer px-12 pb-12 text-blue-900 text-3xl text-center">
+        <div className="px-12 pb-8">
+          <img src="/funnel.svg" alt="SVG" />
+        </div>
         <div className="px-12 text-left">Track Your Conversion</div>
       </div>
       <div className="grid grid-cols-2">
         <div></div>
-        <div className="cursor-pointer p-12 text-blue-900 text-3xl text-center">
+        <div className="cursor-pointer px-12 pb-12 text-blue-900 text-3xl text-center">
+          <div className="px-12 pb-8">
+            <img src="/colorwheel.svg" alt="SVG" />
+          </div>
           <div className="px-12 text-left">Customized Campaigns</div>
         </div>
       </div>
 
-      <div className="cursor-pointer p-12 text-blue-900 text-3xl text-center">
+      <div className="cursor-pointer px-12 pb-12 text-blue-900 text-3xl text-center">
+        <div className="px-12 pb-8">
+          <img src="/person.svg" alt="SVG" />
+        </div>
         <div className="px-12 text-left">Get Dedicated Support Team</div>
       </div>
-      <div className="cursor-pointer p-12 text-blue-900 text-3xl text-center">
+      <div className="cursor-pointer px-12 pb-12 text-blue-900 text-3xl text-center">
+        <div className="px-12 pb-8">
+          <img src="/assurance.svg" alt="SVG" />
+        </div>
         <div className="px-12 text-left">Quality Assurance</div>
       </div>
     </div>
