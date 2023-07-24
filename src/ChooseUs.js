@@ -4,7 +4,7 @@ const ChooseUs = () => {
   return (
     <div className="relative py-12 px-[100px] mt-12 grid grid-rows-2 grid-cols-3 gap-8">
       <div className="cursor-default relative block">
-        <div className="text-blue-900 font-medium leading-[60px] text-5xl">
+        <div className="text-[#191970] font-medium leading-[60px] text-5xl">
           Why The Industry Chooses Clickdee?
         </div>
 
@@ -16,14 +16,14 @@ const ChooseUs = () => {
           partnerships.
         </div>
       </div>
-      <div className="hover:-translate-y-8 cursor-pointer px-12 pb-12 text-blue-900 text-3xl text-center">
+      <div className="hover:-translate-y-8 cursor-pointer px-12 pb-12 text-[#191970] text-3xl text-center">
         <div className="px-12 pb-8">
           <img src="/target.svg" alt="SVG" />
         </div>
 
         <div className="px-12 text-left">Choose Your Local Targeting</div>
       </div>
-      <div className="hover:-translate-y-8 cursor-pointer px-12 pb-12 text-blue-900 text-3xl text-center">
+      <div className="hover:-translate-y-8 cursor-pointer px-12 pb-12 text-[#191970] text-3xl text-center">
         <div className="px-12 pb-8">
           <img src="/funnel.svg" alt="SVG" />
         </div>
@@ -31,7 +31,7 @@ const ChooseUs = () => {
       </div>
       <div className="grid grid-cols-2">
         <div></div>
-        <div className="hover:-translate-y-8 cursor-pointer text-blue-900 text-3xl text-center">
+        <div className="hover:-translate-y-8 cursor-pointer text-[#191970] text-3xl text-center">
           <div className="px-12 pb-8">
             <img src="/colorwheel.svg" alt="SVG" />
           </div>
@@ -39,13 +39,13 @@ const ChooseUs = () => {
         </div>
       </div>
 
-      <div className="hover:-translate-y-8 cursor-pointer px-12 pb-12 text-blue-900 text-3xl text-center">
+      <div className="hover:-translate-y-8 cursor-pointer px-12 pb-12 text-[#191970] text-3xl text-center">
         <div className="px-12 pb-8">
           <img src="/person.svg" alt="SVG" />
         </div>
         <div className="px-12 text-left">Get Dedicated Support Team</div>
       </div>
-      <div className="hover:-translate-y-8 cursor-pointer px-12 pb-12 text-blue-900 text-3xl text-center">
+      <div className="hover:-translate-y-8 cursor-pointer px-12 pb-12 text-[#191970] text-3xl text-center">
         <div className="px-12 pb-8">
           <img src="/assurance.svg" alt="SVG" />
         </div>
